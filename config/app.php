@@ -52,7 +52,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'name' => env('APP_NAME', 'Laravel'),
+    'url_base' => env('APP_URL_BASE', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------
